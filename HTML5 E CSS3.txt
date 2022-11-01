@@ -1,0 +1,451 @@
+alert rail dragon drive wash pipe lizard middle virtual apart excuse shift
+
+URL = É o nome do DNS, é a representação de números em nomes.
+Servidor = É uma rede que ofereçe serviços de internet
+Cliente = Cliente é o usuário do servidor
+DNS = O DNS é responsável por fazer o mapeamento do URL, é o IP de um site.
+.com = TLD = TOP LEVEL DOMINE
+Variantes do .com = GTLD = Generic domine 
+CCTLD = Country code = Código do país
+WWW = sub-dominio
+/ = caminho 
+
+HTML = Conteúdo - textos, imagens, vídeos e tabelas
+CSS = Design - cores, sombras, tamanhos e posicionamentos
+Javascript = Interatividade
+
+CONTEÚDO EM HTML
+<h1> Exemplo de título </h1>
+<p> Exemplo de parágrafo </p>
+<img src="foto.png" alt="Exemplo de foto">
+
+ESTILO EM CSS
+h1{
+   font-family: Arial;
+   font-size: 20pt;
+   colo: blue;
+}
+
+ESTRUTURA BÁSICA DE DOCUMENTO HTML
+
+<!docytype html> = desenvolvido em HTML
+
+<html lang="pt-br"> idioma = pt
+
+ <head>
+	<meta charset="UTF-8"> = disponibilidade em acentos para o pt
+	<meta name="viewport"
+	content="width=device-width,
+	initial-scale=1.0
+ </head>
+ <body>
+      <h1>Olá, Mundo!</h1>
+
+
+ </body>
+
+</html>
+
+TAGS DE HTML
+
+<hr> = linha preta
+<p> = texto
+<h1> = título
+<br> = quebra de linha
+&lt = menor que <
+&gt = maior que >
+
+EMOJI HTML
+
+&#x(código do emote)
+
+TIPOS DE FORMATO DE IMAGEM
+
+jpg = Imagem gigante na tela (mais pesada)
+png = Fundo transparente, com qualidade melhor (mais leve)
+gif = Imagem com animação
+
+Baixe uma imagem, a rendimensione, e coloque-a em seu site
+ou procure uma imagem na internet, e copie seu link
+
+Como colocar imagem no HTML5
+
+digite img e irá aparecer um atalho
+
+
+COMO COLOCAR UM FAVICON
+
+link:favicon
+
+HIERARQUIA DE TÍTULOS
+
+H1 - Título principal
+H2 - Sub-título
+H3 - Nível abaixo do sub-título(sub-título do sub-título)
+H4 = Nível abaixo do H3
+H5 - Nível abaixo do H4
+H6 - Nível abaixo do H5
+
+SEMÂNTICA NO HTML5
+
+Tem mais valor o significado do que a forma
+
+Mark - Marca texto
+
+Caso você queira que todos mark sejam de uma cor específica, use esse comando!
+<style>
+mark {
+	background-color: limegreen;
+}
+<style>
+
+B - Negrito (não semântica)
+Strong - Negrito (semântica)
+I - Itálico (não semântica)
+Em - Itálico (semântica)
+del - irá colocar um risco no meio do texto
+ins - irá sublinhar o texto
+u - Também existe outra forma de sublinhar com a tag u, mas é não semântica
+Texto sobrescrito - sup, para colocar o texto para cima
+Texto subscrito - sub, para colocar o texto para baixo
+code - ele envelopa o texto
+q - Citação, uma frase dita por outro, são aspas com sentido
+blockquote - ele tem uma indentação, também é uma citação
+abbr - envelopa abreviações
+bdo - Texto invertido
+
+LISTAS
+
+ol - Listas ordenadas	
+ol type 'L' starts='4' = inicia no 4
+ul - listas não-ordenadas
+
+Lista de definição 
+d1 - para iniciar
+dt - palavra-chave Ex: HTML
+dd - significado da palavra-chave
+
+Links e Âncoras 
+
+a - para envelopar e criar um hiperlink
+target='blank' - para ao invés de ir direto para o link, ele abre em outra janel
+rel='external' - define se é um link externo
+rel='next' - define se é um link interno, mas passando para a próxima pagina
+rel='prev' - é um link interno, mas é para voltar para a página anterior
+rel='nofollow' - você está referenciando o link envelopado, mas não o confia totalmente
+
+Como voltar para a pasta anterior
+./ = proxima
+../ = anterior
+
+Imagens Dinâmicas
+
+picture - é para adaptar imagens responsivas
+source - é para ajustar o tamanho da imagem no site de forma com que dispositivos grandes, médios e pequenos possam enxergar perfeitamente, sem adaptar a tela
+
+Como inserir um vídeo
+
+<video> - insira vídeo
+width - tamanho do video
+control - aparece o botão de dar play e dar mute
+poster - isso é para definiir a thumbnail do vídeo
+
+Para ajustar o tipo de video para cada navegador basta colocar dentro de uma tag source
+colocando o arquivo menor até o maior em sequencia
+
+tags em CSS
+color - muda a cor do texto
+background-color - muda o fundo do site
+text-allign - coloca o texto na posição que você deseja
+font-size - muda o tamanho do texto
+font-family - muda a fonte do texto
+
+Para criar um CSS externo 
+link:css
+E pode criar quantos arquivos extras você quiser
+
+Regra de pontuação css externo
+@charset "UTF-8";
+
+Você pode usar todos os tipos de css dentro do seu site
+
+Psicologia dos cores
+
+As cores influencia muito em seu site, ela determina se uma pessoa irá ficar no seu site.
+por isso você deve usar cores que combinam e que seja boa aos olhos do seu cliente.
+Existem cores que se dão melhor em certos segmentos.
+Azul - profissionalismo
+Vermelho - amor
+Amarelo - felicidade 
+Verde - dinheiro
+
+Representando cores com CSS3
+
+Existe três formas de mudar a cor em css:
+Escrevendo o seu nome
+Usando número hexadecimais (use # para iniciar)
+E usando a rgb(red, green, blue)
+Usando hsl(hue, saturation, luminosity)
+
+Harmonia de cores
+
+Circulo cromático
+
+Cores primárias - vermelho, azul e amarelo
+Cores secundárias - laranja, verde e violeta
+Cores terceárias - São misturas que estão entre as cores primárias e secundárias, ele é descrevido primeiro com a sua cor padrão e depois com um nome que a descreva
+
+Cores frias e quentes
+São melhores representadas quando só usam uma delas em sua paleta de cores
+
+Paleta de cores
+Geralmente são usadas entre 3 e 5 cores
+
+Cores complementares
+Cores opostos geralmente criam um bom constraste, combinam bastante se for ajustado o tipo da cor
+
+Cores análogas
+São cores parecidas, que tem um constraste parecido
+
+Cores análogas complementar
+É a cor escolhida e o extremo oposto
+
+Cores intercaladas
+Eu posso pular uma cor pro lado para buscar cores que combinam mais com a que eu desejo
+
+Cores Triádicas
+Eu posso pular três cores para o lado
+
+Cores em quadrado
+Eu posso pular duas cores para o lado, e formo uma quadrado, é bom para conseguir cores fortes
+
+Cores tetrádicas
+Eu escolho duas cores, e depois pego as cores opostas as que eu escolhi, e assim formo o retângulo
+
+Monocramia
+Você escolhe apenas uma cor, e depois modifica a saturação e a iluminosidade
+
+Sites para acesso circulo cromático
+
+https://colorschemedesigner.com/csd-3.5/
+https://color.adobe.com/pt/explore
+colors.co
+
+Como criar um degrade no CSS?
+backgroud-image: linear-gradiente(to (position), cor, cor);
+posições de degrades - to top, to right, to left, to bottom
+background-image: radial-gradient(to circle(formas geométricas), cor, cor);
+background-attachment: fixed; (fixa a tela)
+
+Configurações globais da CSS
+abre o *	
+height - define o tamanho do conteúdo
+
+escala de imagem CSS
+width - ele determina a largura da área de conteúdo
+margin auto - centraliza a margem
+padding - ele abre o mais o conteúdo utilizando o main
+border-radius - ele ajeita a borda, deixando-a mais redonda
+text-shadow - ele coloca sombra no texto
+box-shadow - coloca sombra nas bordas
+
+Estudos básicos de tipografia
+É o estudo de como vamos escrever coisas em papéis(ou telas)
+Tipografia também transmitem emoções
+
+Anatomia do tipo
+
+Todas as letras minúculas são baseadas na letra x
+O vazamento da altura de letras que são maiores que a letra x, é chamado de ascendente
+E ao contrário descendente.
+E o tamanho geral de todas as letras é chamado de corpo
+O "pézinho" da letra, é chamado de serifa
+ 
+Anatomia geométrica
+
+É uma forma geométrica dentro de uma letra
+Haste - retângulo no desenvolvimento de uma letra
+filete - é quando tem duas hastes em uma letra
+Arco - é uma curva arredondada
+esporão - é um saltinho
+vértice - é quando a letra se une formando um triângulo
+terminal - Terminal é uma pequena projeção de um traço, que confere personalidade à letra.
+braço - quando sai de uma haste para cima
+perna - quando sai de uma haste para baixo
+pé - serifa
+espinha - são curvas igual o S
+barriga - quando sai dois arcos
+olho - é a parte interna ontem espaços
+orelha - parte de superior de uma letra
+cauda - é a parte decendente, se parece com uma cauda
+
+Glifo - é uma letra
+
+Família tipográfica - é quando uma letra tem várias versões
+Categoria de fontes - São categorias de fontes que são definidas pelas suas caraterísticas (serifadas, sans-serif, monoespaçadas, handwriting, display)
+serifadas - fontes que tem estrutura inferior para se adequar a uma linha imaginária
+sans-serif - não tem a estrutura
+monoespaçadas - tem o mesmo espaço em todas letras
+handwriting - simula uma fonte feita a mão
+display - Fontes eventuais e comemorativas
+
+Atenção: Recomendado usar fontes não serifadas em textos muito grandes
+
+Tamanho de fontes
+Medidas absolutas - cm, mm, in, px, pt, pc
+Medidas relativas - em, ex, rem, vw, vh, %
+Medidas mais usadas: em, px (RECOMENDADAS)
+
+16px - é o tamanho padrão da página
+1em = 16px
+
+Peso, estilo e shorthand font
+font-weight - peso
+width - largura 
+height - altura
+
+pesos da fonte - lighter, normal, bold, bolder
+font-weight: 100-900 (peso da fonte do menor para o maior) (400 é o normal)
+
+font-style - italic or normal
+
+Shorthand font - ele simplifica tudo em uma função, seguindo uma sequencia
+font-style > font-weight > font-size > font-family
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+Usar fontes externas com Google fonts
+https://fonts.google.com/?preview.text=Curso%20em%20video&preview.text_type=custom
+
+Fontes externas dafont.com
+
+Tipos de format()
+opentype (otf)
+truetype (ttf)
+embedded-opentype
+truetype-aat (Apple Advanced Typography)
+svg
+
+Sites para identificar fontes em imagens
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+Alinhamento de texto com CSS
+text-allign: center, left, right, justify
+text-indent: 0-100px (É para dar espaço ao ínicio de um parágrafo)
+
+Usando o ID com CSS
+ID é reconhecido como # em CSS
+Class é reconhecido como . em CSS
+
+O elemento HTML <span> é um conteiner generico em linha para conteúdo fraseado, que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id), ou para compartilhar valores de atributos como lang.
+
+Qual a diferença de class e id?
+O id só pode mudar um elemento especifico e a class pode alterar um grupo de elementos
+
+Pseudo-classes
+são representados por :
+div:hover
+Use a tag hover para mudar a animação de um elemento
+
+quando tiver uma tag dentro de uma div use isso
+div > p = isso irá especificar o parágrafo que está dentro da div
+
+Pseudo elementos 
+a:visited - é para definir o estilo de um site que já foi visitado, caso queira que permaneça uma cor especifica basta usar a tag "a" em style
+a:active - quando você clicar no link ele muda o estilo
+a:hover - se você deixar o mouse me cima do link, ele muda o estilo
+a::after - depois que você definir o estilo, você pode usar esse comando para indicar para o usuário, irá aparecer ao lado da tag junto com o pseudo elemento
+a::before - faz o mesmo que o anterior só que do lado oposto
+
+Seletores personalizados
+# - id
+. - class
+: - pseudo-class
+:: - pseudo elemento
+> - children (o filho)
+
+Modelo de caixa
+
+height - altura
+width - largura
+border - borda
+padding - preenchimento (cria um espaço interno dentro da borda)
+margin - faz o mesmo que o padding, mas cria um espaço externo, podendo ser para a direita, esquerda, para baixo e para cima
+outline - contorno
+
+Tipos de caixa
+box-level - o box level quebra a linha e oculpa a largura do navegador inteiro
+inline-level - o inline level não quebra a linha, ele coloca o conteudo na mesma linha
+
+box-level	inside-level
+<div>		<span>
+<h1-h6>		<a>	
+<p>		<code>
+<main>		<small>
+<header>	<strong>
+<nav>		<em>
+<article>	<sup - sub>
+<aside>		<label>
+<footer>	<button>
+<form>		<input>
+<video>		<select>
+
+margin: auto (deixa a caixa no meio)
+
+shorthand de border
+width - style - color
+
+shorthand de padding
+top-right-bottom-left (esquema do relógio)
+
+shorthand de margin
+top-right-bottom-left
+
+shorthand de outline
+width-style-color
+
+caso você todos os números de uma padding ou margin sejam o mesmo, basta colocar apenas um número
+e caso você coloque dois números, a shorthand irá descrever como o primeiro (top-bottom), e o segundo (right-left)
+
+Grouping tags
+header - cabeçalho
+nav - representa uma seção de uma página que aponta para outras páginas
+main - O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação
+footer - rodapé
+
+<header> (cabeçalho)
+        <h1>Meu site</h1>
+        <nav> (menu com links)
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article> (artigo)
+                <h2>Noticias sobre o Brasil</h2>
+                <p></p>
+                <aside>
+                    <p></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer> (rodapé)
+
+box-shadow - 1px(sombra da direita) 1px(sombra vertical (para baixo e cima)) 1px(ele entrelaça a caixa) cor 
+border-radius - ele arredonda a caixa (caso você escolha dois números, a borda vai ser classificada como superioresquerdo-inferiordireito e inferioresquerdo-superiordireito)
+
+Variável em CSS
+:root {
+   --var()
+}
+
+Para selecionar todas as tags no css
+* {
+}
+

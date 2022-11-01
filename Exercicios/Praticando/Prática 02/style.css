@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: #E0E8FF;
+    background-image: url(Imagens/pattern-background-desktop.svg);
+}
+
+img {
+    width: 100%;
+}
+
+#hero {
+    width: 403px;
+    display: block;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main {
+    background-color: white;
+    margin-left: 475px;
+    margin-right: 400px;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+h2 {
+    font-family: 'Arial';
+    text-align: center;
+}
+
+p { 
+    font-family: 'Red Hat Display', sans-serif;
+    color: #7280A7;
+    width: 300px;
+    line-height: 25px;
+    margin: auto;
+    display: block;
+}
+
+#offer {
+    text-align: center;
+}
+#music {
+    width: 50px;
+    padding: 15px;
+    display: flex;
+    
+}
+
+#plano {
+    background-color: #F5F7FF;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.annual {
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+#preço {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #7280A7;
+}
+
+#change {
+    color: #3829E0;
+    font-size: 14px;
+}
+
+#payment {
+    background-color: #3829E0;
+    width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+#payment:hover {
+    box-shadow: 0px 5px 40px 0px hsl(224, 23%, 55%);;
+
+}
+
+#p_payment {
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#cancel {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#cancel_a {
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel_a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#change { 
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+#change:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: black;
+    padding-left: 70px;
+}
+

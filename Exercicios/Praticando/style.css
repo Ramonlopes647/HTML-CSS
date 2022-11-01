@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Fontes/Nunito-VariableFont_wght.ttf);
+}
+
+:root {
+    --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+    --clr-green-dark: #049A40;
+    --clr-green-light: #0BF96A;
+    --clr-pink-dark: #E10BF9;
+    --clr-pink-light: #F3A0FD;
+    --clr-white: #F5F5F5;
+}
+
+body, html {
+    margin: 0;
+    font-family: Nunito;
+    background-color: var(--clr-white);
+}
+
+header {
+    background-color: #0BF96A;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+img {
+    padding-right: 300px;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    font-weight: 16px;
+}
+
+img, a {
+    display: inline-block;
+}
+
+hr {
+    border: none;
+    background-color: #e10bf9;
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+p {
+    width: 500px;
+    padding-left: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+img, p {
+    display: inline-block;
+    margin: auto;
+}
+
+.texto {
+    width: 400px;
+    display: flex;
+}
+
+.img_texto {
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div_img {
+    display: flex;
+}
+
+.img_lado {
+    width: 300px;
+}
+
+#conjunto {
+    display: inline-block;
+    height: 150px;
+}
+
+.img_lado {
+    display: inline-block;
+}
+
+.texto_img {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+menu {
+    padding-top: 5px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+#somos {
+    width: 400px;
+}
+
+.p_reduzido {
+    width: 250px;
+}
+
+.h2_img {
+    font-size: 24px;
+    display: inline-block;
+    font-family: Nunito;
+    width: 400px;
+    padding-left: 100px;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+.programaçao {
+    padding-left: 50px;
+}
+
+.cursos {
+    display: inline;
+}
+
+.p_img {
+    width: 250px;
+    margin-left: 25px;
+}
+
+#caixa_roxa {
+    display: inline;
+}
+
+#planos {
+    background-color: var(--clr-pink-light);
+    height: 550px;
+    padding-left: 10%;
+    display: flex;
+}
+
+div #h2_planos {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.coluna_planos {
+    width: 300px;
+    border: 5px 5px black;
+    height: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--clr-green-light);
+    display: inline-block;
+    margin-left: 25px;
+    font-family: Nunito;
+}
+
+.linha_plano {
+    width: 25px;
+    background-color: var(--clr-green-light);   
+}
+
+.coluna_planos > h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+#plano ul {
+    text-align: center;
+}
+
+u {
+    width: 10px;
+}
+
+#plano_25 {
+    height: 380px;
+    margin-top: 160px;
+    line-height: 40px;
+}
+
+#plano_45 {
+    margin-top: 145px;
+    height: 395px;
+}
+
+#plano_75 {
+    margin-top: 120px;
+    height: 420px;
+    background-color: var(--clr-green-light);
+    border-color: var(--clr-pink-dark);
+}
+
+sup {
+    font-size: 20px;
+}
+
+.comprar {
+    text-align: center;
+    border: 1px solid black;
+    border-color: var(--clr-green-light);
+    width: 180px;
+    margin-left: 60px;
+    padding-top: 5px;
+    border-width: 2px;
+}
+
+.a_comprar {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.comprar_75 {
+    text-align: center;
+    border: 1px solid black;
+    border-color: var(--clr-pink-dark);
+    border-width: 2px;
+    width: 180px;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.quality {
+    display: flex;
+}
+
+.quality p {
+    width: 200px;
+}

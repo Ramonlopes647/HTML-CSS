@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+        }
+
+        h1 {
+            box-shadow: 1px 2px 3px 4px black;
+            border-radius: 5px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        nav  {
+            background-color: rgb(107, 105, 105);
+            padding: 3px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.692);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        article > aside {
+            background-color: rgba(136, 132, 132, 0.356);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding-left: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 1px;
+            border-radius: 10px;
+        }
+
+        footer > p {
+            text-align: center;
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Crimes</a>
+            <a href="">Esportes</a>
+            <a href="">Empregos</a>
+            <a href="">Negócios</a>
+            <a href="">Lutas</a>
+            <a href="">Saúde</a>
+            <a href="">Viver</a>
+            <a href="">Filmes</a>
+            <a href="">Músicas</a>
+            <a href="">Crianças</a>
+            <a href="">Sonhos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Esportes Política Tecnologia</p>
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis impedit et praesentium cum harum repudiandae quam officiis ipsam reiciendis fugiat, magni veritatis, modi possimus error voluptatem, quia recusandae iusto dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem minima facere asperiores tempora totam, sed quas necessitatibus quidem saepe quam, illo corporis veniam mollitia modi voluptas? Eum, omnis in.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
