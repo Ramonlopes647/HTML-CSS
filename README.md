@@ -39,7 +39,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/Exercicios/ex017/index.html">Aula 17<a>
 <br>
-<a href="https://ramonlopes647.github.io/HTML-CSS/Exercicios/ex018/index.html">Aula 18<a>
+<a href="https://ramonlopes647.github.io/HTML-CSS/Exercicios/ex018/fontes/fonte01.html">Aula 18<a>
 <br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/Exercicios/ex019/index.html">Aula 19<a>
 <br>
