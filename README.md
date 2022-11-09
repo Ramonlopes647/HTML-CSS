@@ -5,25 +5,45 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <strong>Aulas<strong>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex001/index.html">Aula 1<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex002/index.html">Aula 2<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex003/index.html">Aula 3<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex004/index.html">Aula 4<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex005/index.html">Aula 5<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex006/index.html">Aula 6<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex007/index.html">Aula 7<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex008/index.html">Aula 8<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex009/index.html">Aula 9<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex010/index.html">Aula 10<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex011/index.html">Aula 11<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex012/index.html">Aula 12<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex013/index.html">Aula 13<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex014/index.html">Aula 14<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex015/index.html">Aula 15<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex016/index.html">Aula 16<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex017/index.html">Aula 17<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex018/index.html">Aula 18<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex019/index.html">Aula 19<a>
+<br>
 <a href="https://ramonlopes647.github.io/HTML-CSS/tree/main/Exercicios/ex020/index.html">Aula 20<a>
+<br>
 
 <strong>DESAFIOS<strong>
 
